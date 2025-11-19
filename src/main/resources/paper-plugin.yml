@@ -1,0 +1,4 @@
+name: TowerOfWords
+version: '1.0-SNAPSHOT'
+main: Chisu.towerOfWords.TowerOfWords
+api-version: '1.21'
