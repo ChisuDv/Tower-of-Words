@@ -7,7 +7,7 @@ public final class TowerOfWords extends JavaPlugin {
     @Override
     public void onEnable() {
 
-
+        this.getCommand("respuesta").setExecutor(new words());
 
         //Mensaje de inicio correcto
         System.out.println("El Plugin Torres de Palabras fue activado correctamente");

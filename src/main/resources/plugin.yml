@@ -1,0 +1,10 @@
+name: TowerOfWords
+version: '1.0-SNAPSHOT'
+main: Chisu.towerOfWords.TowerOfWords
+api-version: '1.21'
+
+commands:
+  respuesta:
+    description: Coloca bloques verticalmente según las letras de la palabra
+    usage: /respuesta <palabra>
+    aliases: [resp, r]
