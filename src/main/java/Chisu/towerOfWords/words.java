@@ -23,44 +23,33 @@ public class words implements CommandExecutor {
         letraABloque = new HashMap<>();
 
         // Mapeo del alfabeto a diferentes bloques
-        letraABloque.put('A', Material.GRAY_STAINED_GLASS);
-        letraABloque.put('B', Material.BLUE_WOOL);
-        letraABloque.put('C', Material.RED_CONCRETE);
-        letraABloque.put('D', Material.GREEN_WOOL);
-        letraABloque.put('E', Material.YELLOW_CONCRETE);
-        letraABloque.put('F', Material.PURPLE_WOOL);
-        letraABloque.put('G', Material.ORANGE_CONCRETE);
-        letraABloque.put('H', Material.WHITE_WOOL);
-        letraABloque.put('I', Material.LIGHT_BLUE_CONCRETE);
-        letraABloque.put('J', Material.MAGENTA_WOOL);
-        letraABloque.put('K', Material.LIME_CONCRETE);
-        letraABloque.put('L', Material.PINK_WOOL);
-        letraABloque.put('M', Material.CYAN_CONCRETE);
-        letraABloque.put('N', Material.BROWN_WOOL);
-        letraABloque.put('O', Material.BLACK_CONCRETE);
-        letraABloque.put('P', Material.RED_WOOL);
-        letraABloque.put('Q', Material.GREEN_CONCRETE);
-        letraABloque.put('R', Material.BLUE_CONCRETE);
-        letraABloque.put('S', Material.YELLOW_WOOL);
-        letraABloque.put('T', Material.LIGHT_GRAY_CONCRETE);
-        letraABloque.put('U', Material.ORANGE_WOOL);
-        letraABloque.put('V', Material.PURPLE_CONCRETE);
-        letraABloque.put('W', Material.LIME_WOOL);
-        letraABloque.put('X', Material.PINK_CONCRETE);
-        letraABloque.put('Y', Material.GRAY_CONCRETE);
-        letraABloque.put('Z', Material.CYAN_WOOL);
-
-        // Números
-        letraABloque.put('0', Material.STONE);
-        letraABloque.put('1', Material.COBBLESTONE);
-        letraABloque.put('2', Material.STONE_BRICKS);
-        letraABloque.put('3', Material.MOSSY_COBBLESTONE);
-        letraABloque.put('4', Material.ANDESITE);
-        letraABloque.put('5', Material.DIORITE);
-        letraABloque.put('6', Material.GRANITE);
-        letraABloque.put('7', Material.POLISHED_ANDESITE);
-        letraABloque.put('8', Material.POLISHED_DIORITE);
-        letraABloque.put('9', Material.POLISHED_GRANITE);
+        letraABloque.put('A', Material.WHITE_STAINED_GLASS);
+        letraABloque.put('B', Material.LIGHT_GRAY_STAINED_GLASS);
+        letraABloque.put('C', Material.GRAY_STAINED_GLASS);
+        letraABloque.put('D', Material.BLACK_STAINED_GLASS);
+        letraABloque.put('E', Material.BROWN_STAINED_GLASS);
+        letraABloque.put('F', Material.RED_STAINED_GLASS);
+        letraABloque.put('G', Material.ORANGE_STAINED_GLASS);
+        letraABloque.put('H', Material.YELLOW_STAINED_GLASS);
+        letraABloque.put('I', Material.LIME_STAINED_GLASS);
+        letraABloque.put('J', Material.GREEN_STAINED_GLASS);
+        letraABloque.put('K', Material.CYAN_STAINED_GLASS);
+        letraABloque.put('L', Material.LIGHT_BLUE_STAINED_GLASS);
+        letraABloque.put('M', Material.BLUE_STAINED_GLASS);
+        letraABloque.put('N', Material.CYAN_CONCRETE);
+        letraABloque.put('Ñ', Material.PURPLE_STAINED_GLASS);
+        letraABloque.put('O', Material.MAGENTA_STAINED_GLASS);
+        letraABloque.put('P', Material.PINK_STAINED_GLASS);
+        letraABloque.put('Q', Material.WHITE_CONCRETE);
+        letraABloque.put('R', Material.LIGHT_GRAY_CONCRETE);
+        letraABloque.put('S', Material.GRAY_CONCRETE);
+        letraABloque.put('T', Material.BLACK_CONCRETE);
+        letraABloque.put('U', Material.BROWN_CONCRETE);
+        letraABloque.put('V', Material.RED_CONCRETE);
+        letraABloque.put('W', Material.ORANGE_CONCRETE);
+        letraABloque.put('X', Material.YELLOW_CONCRETE);
+        letraABloque.put('Y', Material.LIME_CONCRETE);
+        letraABloque.put('Z', Material.GREEN_CONCRETE);
 
         // Espacio
         letraABloque.put(' ', Material.AIR);
